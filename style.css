@@ -11,10 +11,11 @@ body {
     overflow: hidden;
 }
 
+/* Стилі для контейнера гри */
 #game-container {
     width: 800px;
     height: 600px;
-    border: 2px solid #61dafb; /* Блакитна рамка */
-    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.5); /* Легка тінь */
-    background-color: #282c34; /* Темно-сірий фон */
+    margin: 0 auto;
+    border: 2px solid #000;
+    background-color: #f0f0f0;
 }
