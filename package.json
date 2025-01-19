@@ -1,0 +1,22 @@
+{
+  "name": "web3-game",
+  "version": "1.0.0",
+  "description": "A simple 2D browser game with web3 wallet integration",
+  "main": "src/main.js",
+  "scripts": {
+    "start": "npx live-server" /* Команда для запуску локального сервера */
+  },
+  "keywords": [
+    "game",
+    "2d",
+    "web3",
+    "phaser",
+    "metamask"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {
+    "ethers": "^6.0.0", /* Залежність для роботи з Metamask */
+    "phaser": "^3.60.0" /* Залежність для створення гри */
+  }
+}
