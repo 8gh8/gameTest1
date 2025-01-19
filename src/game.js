@@ -1,4 +1,4 @@
-import Phaser from "phaser";
+const Phaser = window.Phaser;
 
 export function createGame(containerId) {
     const config = {
