@@ -31,7 +31,7 @@ function createGame(containerId) {
     function preload() {
         // Завантаження ресурсів
         this.load.image('ground', 'https://labs.phaser.io/assets/sprites/platform.png'); // Платформа
-        this.load.image('player', 'https://labs.phaser.io/assets/sprites/phaser-dude.png'); // Гравець
+        this.load.image('player', './img/player-lpuss.png'); // Гравець
         this.load.image('npc', 'https://labs.phaser.io/assets/sprites/enemy-baddie.png'); // NPC
         this.load.image('bullet', 'https://labs.phaser.io/assets/sprites/bullet.png'); // Лазер
     }
